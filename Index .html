@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Dev - Développeur Web & Designer UI/UX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <!-- <div class="logo-icon">CODO</div> -->
+                    <div class="logo-text"> <img src="Codo.png" alt="Mylogo" class="Mylogo"> </div>
+                </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#processus">Processus</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1>Créateur d'<span>Expériences Numériques</span> Intuitives</h1>
+                    <p>Je suis Bill, développeur web passionné, designer UI/UX et graphiste. Je crée des expériences numériques intuitives et esthétiques qui marquent les esprits.</p>
+                    <div class="hero-btns">
+                        <a href="#projets" class="btn"><i class="fas fa-eye"></i> Voir mes projets</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-img fade-in">
+                    <div class="profile-container">
+                        <div class="profile-img">
+                            <div class="placeholder-img"><img src="BILL.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences">
+        <div class="container">
+            <h2 class="section-title fade-in">Compétences Techniques</h2>
+            <div class="skills-container">
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-code"></i> Développement Frontend</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-react"></i> React</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-server"></i> Développement Backend</h3>
+                    <ul>
+                        <li><i class="fab fa-node-js"></i> Node.js</li>
+                        <li><i class="fas fa-database"></i> MongoDB</li>
+                        <!-- <li><i class="fas fa-database"></i> SQL</li> -->
+                        <li><i class="fab fa-python"></i> Python</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-paint-brush"></i> Design & UI/UX</h3>
+                    <ul>
+                        <li><i class="fab fa-figma"></i> Figma</li>
+                        <li><i class="fas fa-paint-brush"></i> Adobe Creative Suite</li>
+                        <li><i class="fas fa-drafting-compass"></i> Design Responsive</li>
+                        <li><i class="fas fa-mobile-alt"></i> Mobile First</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets">
+        <div class="container">
+            <h2 class="section-title fade-in">Mes Projets</h2>
+            <div class="projects-container">
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <div><i class="fas fa-exchange-alt"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Convertisseur de Devises</h3>
+                        <p>Application web permettant de convertir les devises avec des taux de change en temps réel grâce à une API.</p>
+                        <div class="technologies">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">API</span>
+                        </div>
+                        <a href="https://github.com/Bill19ttn/Convertisseur-de-Devises" class="btn">Voir le projet</a>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <div><i class="fas fa-cocktail"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Liquidheritage</h3>
+                        <p>Application web permettant de créer des cocktails personnalisés selon les goûts de l'utilisateur.</p>
+                        <div class="technologies">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">API</span>
+                        </div>
+                        <a href="https://github.com/Bill19ttn/Cocktailgenerator" class="btn">Voir le projet</a>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <div><i class="fas fa-gamepad"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Jeux Éducatifs</h3>
+                        <p>Plateforme de jeux éducatifs pour enfants avec des activités interactives pour apprendre en s'amusant.</p>
+                        <div class="technologies">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Canvas</span>
+                        </div>
+                        <a href="https://github.com/Bill19ttn/Quiz-Educatif" class="btn">Voir le projet</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <div class="cotedesign">
+                            <img src="Sondage.png" alt="Design UI/UX">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Design UI/UX</h3>
+                        <p>Conception d'une plateforme de sondage avec une interface intuitive et une expérience utilisateur optimisée.</p>
+                        <div class="technologies">
+                            <span class="tech-badge">Figma</span>
+                            <span class="tech-badge">Prototypage</span>
+                        </div>
+                        <a href="#" class="btn">Voir les designs</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <div class="logoevents">
+                            <img src="cyraugislogo.jpg" alt="Création de Logo">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Identité Visuelle</h3>
+                        <p>Création de logo et identité visuelle pour une entreprise de gestion d'événements.</p>
+                        <div class="technologies">
+                            <span class="tech-badge">Illustrator</span>
+                            <span class="tech-badge">Photoshop</span>
+                        </div>
+                        <a href="#" class="btn">Voir les créations</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processus de Design -->
+    <section id="processus">
+        <div class="container">
+            <h2 class="section-title fade-in">Processus de Création</h2>
+            <div class="design-process fade-in">
+                <p>J'applique une approche centrée sur l'utilisateur, en utilisant des maquettes et des prototypes pour tester et affiner mes designs avant le développement. Mon processus créatif garantit des interfaces à la fois esthétiques et fonctionnelles.</p>
+                
+                <div class="process-steps">
+                    <div class="step">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Idéation</h4>
+                        <p>Recherche et brainstorming</p>
+                    </div>
+                    
+                    <div class="step">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h4>Conception</h4>
+                        <p>Maquettes et wireframes</p>
+                    </div>
+                    
+                    <div class="step">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Prototypage</h4>
+                        <p>Interactions et tests</p>
+                    </div>
+                    
+                    <div class="step">
+                        <i class="fas fa-code"></i>
+                        <h4>Développement</h4>
+                        <p>Implémentation technique</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <h3>Discutons de votre projet</h3>
+                    <p>N'hésitez pas à me contacter pour discuter de vos projets ou collaborations potentielles. Je suis disponible pour répondre à vos questions et vous aider à concrétiser vos idées.</p>
+                    
+                    <a href="mailto:totinbill19@gmail.com" class="contact-email">
+                        <i class="fas fa-envelope"></i> totinbill19@gmail.com
+                    </a>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Bill19ttn" class="social-link"><i class="fab fa-github"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a> -->
+                    </div>
+                </div>
+                
+                <div class="contact-form fade-in">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" placeholder="Votre nom" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Votre email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" placeholder="Sujet de votre message">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Votre message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Envoyer le message</button>
+                        
+                        <p id="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bill Dev - Tous droits réservés</p>
+            <p>Développeur Web & Designer UI/UX</p>
+        </div>
+    </footer>
+     <script src="script.js" ></script>
+</body>
+</html>
